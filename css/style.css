@@ -1,0 +1,444 @@
+body {
+	min-width: 320px;
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	color: #444444;
+	line-height: 21px;
+	font-family: "Open Sans", "Droid Sans", "Arial", sans-serif;
+	background-color: #ffffff;
+}
+
+a {
+	color: #1091c7;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+figcaption {
+	font-family: "DroidSans", "Arial", sans-serif;
+	font-size: 13px;
+	line-height: 18px;
+	text-align: center;
+	margin-top: 8px;
+	margin-top: 8px;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	margin-top: 10px;
+}
+
+h1 {
+	font-size: 30px;
+	line-height: 41px;
+	font-weight: 700;
+	color: #ffffff;
+	margin-bottom: 0;
+}
+
+h2 {
+	margin-top: 53px;
+	margin-bottom: 11px;
+	font-size: 24px;
+	line-height: 36px;
+	font-weight: 700;
+}
+
+h3 {
+	font-size: 18px;
+	line-height: 28px;
+	font-weight: 700;
+	color: #ffffff;
+}
+
+.backup h3,
+.recovery h3 {
+	color: #444444;
+	font-size: 14px;
+	line-height: 21px;
+	margin-top: 8px;
+}
+
+hr {
+	color: #cfd5dc;
+	background-color: #cfd5dc;
+	height: 1px;
+	margin-top: 58px;
+	margin-bottom: 48px;
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.logo {
+	margin-top: 13px;
+	margin-left: -10px;
+	margin-bottom: 10px;
+}
+
+.advertising-slogan {
+	height: 80px;
+	background: url("../img/bg-advertising-slogan.png") no-repeat;
+}
+
+.partner {
+	margin-bottom: 20px;
+}
+
+.background-system {
+	border-top: 4px solid #0aab0a;
+	box-shadow: 0 0 1px rgb(239, 250, 239);
+	background: url("../img/bg-new-version.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+.background-product-overview,
+.background-backup,
+.background-veeam-info {
+	background: #e5e9ee;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+.main-download-banner {
+	margin-top: 24px;
+	margin-bottom: 48px;
+	background: #0067c5;
+	padding-top: 24px;
+	padding-right: 20px;
+	padding-bottom: 26px;
+	padding-left: 43px;
+}
+
+.marker {
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 21px;
+	text-transform: uppercase;
+	background: #ffffff;
+	padding: 10px 15px;
+	color: #f13037;
+	display: inline-block;
+	margin-top: 21px;
+}
+
+.main-download-banner h1 {
+	margin-top: 39px;
+}
+
+.main-download-banner p {
+	color: #ffffff;
+	font-size: 30px;
+	line-height: 41px;
+	max-width: 420px;
+	margin-bottom: 44px;
+}
+
+.download-form h3 {
+	text-align: center;
+	margin-bottom: 5px;
+	margin-top: 12px;
+}
+
+.download-form {
+	max-width: 369px;
+	border: 3px solid #3482ca;
+	background: #1a76cb;
+	margin-left: -10px;
+}
+
+.download-form input[type="text"],
+.download-form input[type="email"],
+.download-form input[type="tel"] {
+	font-size: 14px;
+	line-height: 22px;
+	padding: 8px 13px;
+	border: 1px solid #dedede;
+}
+
+.btn {
+	color: #ffffff;
+	font-weight: 700;
+	text-transform: uppercase;
+	background: #f13037;
+}
+
+.download-btn {
+	width: 90%;
+	max-width: 320px;
+	font-size: 18px;
+	line-height: 16px;
+	padding: 13px;
+	margin-top: 29px;
+	margin-bottom: 27px;
+	margin-left: 20px;
+}
+
+.download-now {
+	display: block;
+	max-width: 292px;
+	font-size: 20px;
+	line-height: 28px;
+	padding: 26px 57px;
+	margin: 0 auto;
+}
+
+.overview {
+	font-family: "DroidSans", "Arial", sans-serif;
+	line-height: 28px;
+}
+
+.background-menu {
+	border-top: 1px solid #e5e5e5;
+	border-bottom: 1px solid #e5e5e5;
+	box-shadow: 0 0 3px rgb(229, 229, 229);
+}
+
+.nav a {
+	text-transform: uppercase;
+	font-size: 20px;
+	line-height: 28px;
+	font-weight: 700;
+	color: #444444;
+	position: relative;
+	padding: 26px 30px;
+}
+
+.nav a:hover,
+.nav .active {
+	color: #54b948;
+	text-decoration: none;
+}
+
+.nav a:hover::after,
+.nav .active::after {
+	content: "";
+	position: absolute;
+	height: 2px;
+	background: #54b948;
+	bottom: 25px;
+	left: 30px;
+	right: 30px;
+}
+
+.navbar-nav li {
+	margin: 0 auto;
+}
+
+.another-align {
+	text-align: left;
+}
+
+.another-align-cloud {
+	text-align: left;
+	margin-top: 8px;
+	margin-left: 25px;
+}
+
+.product-overview {
+	margin-top: 30px;
+	margin-bottom: 54px;
+}
+
+.product-overview p {
+	max-width: 581px;
+	font-size: 18px;
+	line-height: 28px; 
+	margin-top: 8px;
+}
+
+.minipic::before {
+	content: "";
+	width: 31px;
+	height: 32px;
+	position: absolute;
+	background: transparent url("../img/sprite.png");
+	background-repeat: no-repeat;
+	left: -40px;
+}
+
+.minipic {
+	display: inline-block;
+	position: relative;
+}
+
+.overview {
+	margin-top: 28px;
+	margin-right: 42px;
+	margin-left: 41px;
+}
+
+.overview::before {
+	background-position: -67px -5px;
+}
+
+.watch-video-cloud {
+	margin-left: 65px;
+	margin-top: 21px;
+	margin-bottom: 55px;
+}
+
+.watch-video-cloud::before {
+	background-position: -181px -5px;
+}
+
+.watch-video{
+	margin-left: 65px;
+	margin-top: 25px;
+}
+
+.watch-video::before {
+	background-position: -181px -5px;
+}
+
+.read-blog {
+	margin-left: 65px;
+	margin-top: 15px;
+}
+
+.read-blog::before {
+	background-position: -108px -5px;
+}
+
+.components,
+.explorer,
+.cloud {
+	display: block;
+	margin: 0 auto;
+}
+
+.about-cloud {
+	margin-top: 34px;
+}
+
+.about-cloud ul {
+	margin-top: 21px;
+}
+
+.about-cloud li {
+	margin-bottom: 14px;
+}
+
+.cloud {
+	margin-top: 18px;
+}
+
+.backup {
+	margin-bottom: 59px;
+}
+
+.backup-item-2 li {
+	margin-top: 17px;
+}
+
+.backup-item-3 p {
+	max-width: 565px;
+}
+
+.backup-item-3 li {
+	margin-top: 19px;
+}
+
+.conclusion {
+	max-width: 902px;
+	margin-top: 28px;
+}
+
+.recovery p {
+	max-width: 591px;
+}
+
+.recovery li {
+	margin-top: 19px;
+}
+
+.recovery-item-1 li:last-child {
+	margin-bottom: 29px;
+}
+		
+.image-describtion {
+	margin-top: 38px;
+}
+
+.recovery-item-3 li {
+	margin-top: 0;
+	margin-bottom: 18px;
+}
+
+.crutch li:last-child {
+	margin-bottom: 57px;
+}
+
+.about-veeam-info {
+	font-size: 18px;
+	line-height: 28px;
+	max-width: 891px;
+	margin-bottom: 74px;
+}
+
+.main-footer,
+.main-footer a {
+	color: #ffffff;
+	background-color: #393939;
+	font-size: 12px;
+	line-height: 30px;
+	text-transform: uppercase;
+}
+
+.copyright p {
+	text-transform: none;
+}
+
+.copyright p:first-child {
+	line-height: 21px;
+	padding-top: 25px;
+}
+
+.footer-info {
+	padding-top: 25px;
+	position: relative;
+}
+
+.footer-social {
+	margin-bottom: 264px;
+}
+
+.social-btn::before {
+	content: "";
+	width: 21px;
+	height: 20px;
+	position: absolute;
+	background: transparent url("../img/sprite.png");
+	background-repeat: no-repeat;
+	left: -20px;
+}
+
+.social-btn-tw::before {
+	top: 35px;
+	background-position: -150px -5px;
+}
+
+.social-btn-fb::before {
+	top: 5px;
+	background-position: -5px -5px;
+}
+
+.social-btn-ln::before {
+	top: 5px;
+	background-position: -36px -5px;
+}
+
+.social-btn-ytb::before {
+	top: 35px;
+	background-position: -223px -5px;
+}
