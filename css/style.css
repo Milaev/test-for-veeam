@@ -78,15 +78,23 @@ hr {
 	clear: both;
 }
 
+.main-header {
+	background-image: linear-gradient(to right, #ffffff 50%, #0067c5 50%); 
+}
+
 .logo {
+	max-width: 100%;
 	margin-top: 13px;
 	margin-left: -10px;
 	margin-bottom: 10px;
 }
 
-.advertising-slogan {
-	height: 80px;
-	background: url("../img/bg-advertising-slogan.png") no-repeat;
+.background-header {
+	background: #ffffff; 
+	background-image: url("../img/bg-advertising-slogan.png");
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-size: contain;
 }
 
 .partner {
@@ -155,6 +163,7 @@ hr {
 	border: 3px solid #3482ca;
 	background: #1a76cb;
 	margin-left: -10px;
+	text-align: center;
 }
 
 .download-form input[type="text"],
@@ -164,6 +173,7 @@ hr {
 	line-height: 22px;
 	padding: 8px 13px;
 	border: 1px solid #dedede;
+	box-sizing: border-box;
 }
 
 .btn {
@@ -178,10 +188,11 @@ hr {
 	max-width: 320px;
 	font-size: 18px;
 	line-height: 16px;
-	padding: 13px;
+	padding-top: 13px;
+	padding-bottom: 13px;
 	margin-top: 29px;
 	margin-bottom: 27px;
-	margin-left: 20px;
+	box-sizing: border-box;
 }
 
 .download-now {
@@ -204,6 +215,11 @@ hr {
 	box-shadow: 0 0 3px rgb(229, 229, 229);
 }
 
+.navbar-nav li {
+	margin: 0 auto;
+	display: inline;
+}
+
 .nav a {
 	text-transform: uppercase;
 	font-size: 20px;
@@ -212,27 +228,22 @@ hr {
 	color: #444444;
 	position: relative;
 	padding: 26px 30px;
+	box-sizing: border-box;
 }
 
 .nav a:hover,
 .nav .active {
 	color: #54b948;
-	text-decoration: none;
+	text-decoration: underline;
 }
 
-.nav a:hover::after,
-.nav .active::after {
-	content: "";
-	position: absolute;
-	height: 2px;
-	background: #54b948;
-	bottom: 25px;
-	left: 30px;
-	right: 30px;
-}
-
-.navbar-nav li {
-	margin: 0 auto;
+.sticky {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 100;
+	background: #ffffff;
 }
 
 .another-align {

@@ -716,39 +716,108 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
+@media (min-width: 240px) {
+  .container {
+    width: 210px;
+  }
+  .nav a {
+    font-size: 14px;
+    padding: 14px 18px;
+  }
+  .download-now {
+    font-size: 14px;
+    padding: 14px 45px;
+  }
+}
 @media (min-width: 320px) {
   .container {
     width: 290px;
+  }
+  .nav a {
+    font-size: 14px;
+    padding: 14px 18px;
+  }
+  .download-now {
+    font-size: 14px;
+    padding: 14px 45px;
   }
 }
 @media (min-width: 420px) {
   .container {
     width: 390px;
   }
+  .nav a {
+    font-size: 16px;
+    padding: 16px 20px;
+  }
+  .download-now {
+    font-size: 16px;
+    padding: 16px 47px;
+  }
 }
 @media (min-width: 568px) {
   .container {
     width: 538px;
+  }
+  .nav a {
+    font-size: 16px;
+    padding: 16px 20px;
+  }
+  .download-now {
+    font-size: 16px;
+    padding: 16px 47px;
   }
 }
 @media (min-width: 640px) {
   .container {
     width: 610px;
   }
+  .nav a {
+    font-size: 17px;
+    padding: 17px 21px;
+  }
+  .download-now {
+    font-size: 17px;
+    padding: 17px 48px;
+  }
 }
 @media (min-width: 768px) {
   .container {
     width: 738px;
+  }
+  .nav a {
+    font-size: 17px;
+    padding: 17px 21px;
+  }
+  .download-now {
+    font-size: 17px;
+    padding: 17px 48px;
   }
 }
 @media (min-width: 992px) {
   .container {
     width: 960px;
   }
+  .nav a {
+    font-size: 20px;
+    padding: 26px 30px;
+  }
+  .download-now {
+    font-size: 20px;
+    padding: 26px 57px;
+  }
 }
 @media (min-width: 1200px) {
   .container {
     width: 960px;
+  }
+  .nav a {
+    font-size: 20px;
+    padding: 26px 30px;
+  }
+  .download-now {
+    font-size: 20px;
+    padding: 26px 57px;
   }
 }
 .container-fluid {
@@ -1700,7 +1769,8 @@ output {
   width: 90%;
   max-width: 320px;
   height: 40px;
-  margin: 10px 20px 0 20px;
+  margin: 0 auto;
+  margin-top: 10px;
   color: #555;
   background-color: #fff;
   background-image: none;
@@ -3114,16 +3184,15 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  text-align: center
 }
 .nav > li {
   position: relative;
-  display: block;
   width: 206px;
-  text-align: center;
 }
 .nav > li > a {
   position: relative;
-  display: block;
+  display: inline-block;
 }
 .nav > li.disabled > a {
   color: #777;
